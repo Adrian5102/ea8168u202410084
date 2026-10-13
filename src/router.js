@@ -6,7 +6,6 @@ import vehiclesRoutes from "./vehicles/presentation/vehicles-routes.js";
 const pageNotFound = () => import('./shared/presentation/views/page-not-found.vue');
 
 
-// Routes version when IAM is not implemented
 const routes = [
     { path: '/home',            name: 'home',       component: Home,        meta: { title: 'Home' } },
     { path: '/vehicles',        name: 'vehicles', children: vehiclesRoutes },

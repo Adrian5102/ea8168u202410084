@@ -14,7 +14,7 @@ const toggleDrawer = () => {
 }
 const items = [
   {label: 'option.home', to: '/home'},
-  {label: 'option.about', to: '/vehicles/items/new'},
+  {label: 'option.vehicles', to: '/vehicles/items/new'},
 ];
 </script>
 
@@ -25,7 +25,7 @@ const items = [
     <pv-toolbar class="bg-primary">
       <template #start>
         <pv-button class="p-button-text" icon="pi pi-bars" @click="toggleDrawer"/>
-        <h3>ACME Learning Center</h3>
+        <h3>Astara Retail Peru</h3>
       </template>
       <template #end>
         <div class="flex-column mr-3">

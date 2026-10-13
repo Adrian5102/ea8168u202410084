@@ -1,7 +1,7 @@
 {
   "option": {
     "home": "Inicio",
-    "tutorials": "Artículo de inventario de vehículos nuevos"
+    "vehicles": "Artículo de inventario de vehículos nuevos"
   },
   "home": {
     "title": "Inicio",
@@ -14,5 +14,10 @@
   },
   "errors": {
     "occurred": "Ocurrio un error"
+  },
+  "vehicle": {
+    "name": "Nombre",
+    "save": "guardar",
+    "cancel": "cancelar"
   }
 }

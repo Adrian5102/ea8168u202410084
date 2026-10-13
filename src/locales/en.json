@@ -1,7 +1,7 @@
 {
   "option": {
     "home": "Home",
-    "tutorials": "New Vehicle Inventory Item"
+    "vehicles": "New Vehicle Inventory Item"
   },
   "home": {
     "title": "Home",
@@ -14,5 +14,10 @@
   },
   "errors": {
     "occurred": "Errors occurred"
+  },
+  "vehicle": {
+    "name": "Name",
+    "save": "save",
+    "cancel": "cancel"
   }
 }

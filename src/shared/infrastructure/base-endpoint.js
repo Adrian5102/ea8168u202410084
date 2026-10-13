@@ -33,21 +33,4 @@ export class BaseEndpoint {
     create(resource) {
         return this.http.post(this.endpointPath, resource);
     }
-
-    /**
-     * @param {string|number} id - Resource identifier.
-     * @param {Object} resource - Resource payload to update.
-     * @returns {Promise<import('axios').AxiosResponse>} HTTP response with updated resource.
-     */
-    update(id, resource) {
-        return this.http.put(`${this.endpointPath}/${id}`, resource);
-    }
-
-    /**
-     * @param {string|number} id - Resource identifier.
-     * @returns {Promise<import('axios').AxiosResponse>} HTTP response for delete operation.
-     */
-    delete(id) {
-        return this.http.delete(`${this.endpointPath}/${id}`);
-    }
 }
