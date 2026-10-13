@@ -1,7 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Layout from "./shared/presentation/components/layout.vue";
+import {useI18n} from "vue-i18n";
+const { t } = useI18n();
 </script>
 
 <template>
-  <HelloWorld />
+  <layout/>
 </template>

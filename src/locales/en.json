@@ -1,0 +1,18 @@
+{
+  "option": {
+    "home": "Home",
+    "tutorials": "New Vehicle Inventory Item"
+  },
+  "home": {
+    "title": "Home",
+    "content": "Premium Vehicles & Showroom Management Delivered to Your Dealership."
+  },
+  "page-not-found": {
+    "title": "Page Not Found",
+    "content": "The path {unavailable-route} is not available.",
+    "go-home": "Go Home"
+  },
+  "errors": {
+    "occurred": "Errors occurred"
+  }
+}

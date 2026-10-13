@@ -1,0 +1,18 @@
+{
+  "option": {
+    "home": "Inicio",
+    "tutorials": "Artículo de inventario de vehículos nuevos"
+  },
+  "home": {
+    "title": "Inicio",
+    "content": "Vehículos premium y gestión de sala de exposición directamente en su concesionario."
+  },
+  "page-not-found": {
+    "title": "Pagina no encontrada",
+    "content": "El camino {unavailable-route} no se encuentra disponible.",
+    "go-home": "Volver al inicio"
+  },
+  "errors": {
+    "occurred": "Ocurrio un error"
+  }
+}
