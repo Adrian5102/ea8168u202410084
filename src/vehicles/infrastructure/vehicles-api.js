@@ -4,7 +4,7 @@ import {BaseEndpoint} from "../../shared/infrastructure/base-endpoint.js";
 const vehiclesEndpointPath     = import.meta.env.VITE_INVENTORY_ENDPOINT_PATH;
 
 /**
- * Infrastructure gateway for Publishing bounded-context endpoints.
+ * Infrastructure gateway for Vehicles bounded-context endpoints.
  *
  * @class VehiclesApi
  * @extends BaseApi
@@ -25,7 +25,7 @@ export class VehiclesApi extends BaseApi {
 
     /**
      * Fetches all ve.
-     * @returns {Promise<import('axios').AxiosResponse>} Promise resolving to the categories' response.
+     * @returns {Promise<import('axios').AxiosResponse>} Promise resolving to the vehicles' response.
      */
     getVehicles() {
         return this.#vehiclesEndpoint.getAll();

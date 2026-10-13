@@ -25,7 +25,8 @@ const items = [
     <pv-toolbar class="bg-primary">
       <template #start>
         <pv-button class="p-button-text" icon="pi pi-bars" @click="toggleDrawer"/>
-        <h3>Astara Retail Peru</h3>
+        <img src="https://img.logo.dev/astara.com?token=LOGO_DEV_PUBLISHABLE_KEY&size=150&format=webp&retina=true" alt="astara-logo" class="w-12rem h-auto border-round-md"/>
+        <h3>Astara Showroom Management</h3>
       </template>
       <template #end>
         <div class="flex-column mr-3">

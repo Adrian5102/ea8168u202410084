@@ -5,7 +5,8 @@
   },
   "home": {
     "title": "Home",
-    "content": "Premium Vehicles & Showroom Management Delivered to Your Dealership."
+    "content": "Premium Vehicles & Showroom Management Delivered to Your Dealership.",
+    "showroom": "My Showroom Collections"
   },
   "page-not-found": {
     "title": "Page Not Found",
@@ -19,5 +20,8 @@
     "name": "Name",
     "save": "save",
     "cancel": "cancel"
+  },
+  "showroom": {
+    "no-vehicle": "There's no vehicles"
   }
 }

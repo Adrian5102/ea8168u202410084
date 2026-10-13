@@ -1,11 +1,12 @@
 {
   "option": {
     "home": "Inicio",
-    "vehicles": "Artículo de inventario de vehículos nuevos"
+    "vehicles": "Articulos de inventario de vehiculos nuevos"
   },
   "home": {
     "title": "Inicio",
-    "content": "Vehículos premium y gestión de sala de exposición directamente en su concesionario."
+    "content": "Vehículos premium y gestión de sala de exposición directamente en su concesionario.",
+    "showroom": "Mis colecciones de sala de exposicion"
   },
   "page-not-found": {
     "title": "Pagina no encontrada",
@@ -19,5 +20,8 @@
     "name": "Nombre",
     "save": "guardar",
     "cancel": "cancelar"
+  },
+  "showroom": {
+    "no-vehicle": "No hay vehiculos"
   }
 }
